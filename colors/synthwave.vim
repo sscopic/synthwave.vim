@@ -99,6 +99,7 @@ endfunction
 " +-----------------+
 
 let s:red = { "gui": "#943b4e", "cterm": "95" }
+let s:light_red = { "gui": "#ffa9a3", "cterm": "95" }
 let s:dark_red = { "gui": "#80425d", "cterm": "95" }
 
 let s:green = { "gui": "#2e997b", "cterm": "30" }
@@ -109,6 +110,7 @@ let s:dark_yellow = { "gui": "#94716a", "cterm": "95" }
 let s:blue = { "gui": "#6382bf", "cterm": "67" }
 
 let s:turqoise = { "gui": "#539ba6", "cterm": "73" }
+let s:light_turqoise = { "gui": "#83c0c9", "cterm": "73" }
 
 let s:cyan = { "gui": "#99BFBA", "cterm": "109" }
 
@@ -405,9 +407,9 @@ call s:h("typescriptBraces", { "fg": s:white })
 
 " XML
 call s:h("xmlAttrib", { "fg": s:dark_yellow })
-call s:h("xmlEndTag", { "fg": s:red })
-call s:h("xmlTag", { "fg": s:red })
-call s:h("xmlTagName", { "fg": s:red })
+call s:h("xmlEndTag", { "fg": s:light_red })
+call s:h("xmlTag", { "fg": s:light_turqoise })
+call s:h("xmlTagName", { "fg": s:light_turqoise })
 
 " +---------------------+
 " | Plugin Highlighting |
